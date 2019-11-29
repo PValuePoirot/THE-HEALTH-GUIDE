@@ -1,0 +1,64 @@
+
+<!DOCTYPE html> 
+<html> 
+      
+<head> 
+    <title> 
+        SearchBar  
+    </title> 
+      
+    <!-- linking the stylesheet(CSS) -->
+    <link rel="stylesheet" type="text/css" href="./style2.css"> 
+</head> 
+  
+<body> 
+     <div style="background-image: url('food.jpg');
+                 background-repeat: no-repeat;
+                 background-attachment: fixed;
+                 background-size: 100% 100%;">
+    <!-- input tag -->
+    <input id="searchbar" onkeyup="search_food()" type="text"
+        name="search" placeholder="Search food.."> 
+      
+    <!-- unordered list -->
+    <ul id='list'> 
+        <li class="food">Omelette     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<small>103 cal</small>
+        <br><p class='item'>1.0 omelette(1 egg)</p></li> 
+        <li class="food">Banana
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<small>117 cal</small>
+        <br><p class='item'>1.0 small(6" to 6-7/8" long)</p></li> 
+        <li class="food">Dosa(Plain)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<small>302 cal</small>
+        <br><p class='item'>1.0 serving(2.0 piece)</p></li> 
+        <li class="food">Idli(Plain)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<small>48 cal</small>
+        <br><p class='item'>1.0 serving(2.0 piece)</p></li> 
+        <li class="food">Wheat Bread(Brown)
+&emsp;&emsp;&emsp;&emsp;&emsp;<small>136 cal</small>
+        <br><p class='item'>2.0 slice</p></li> 
+        <li class="food">Tea with Milk and Sugar
+&emsp;&emsp;&emsp;&ensp;<small>73 cal</small>
+        <br><p class='item'>1.0 serving(1.0 cup)</p></li>  
+        <li class="food">Wheat Chapati
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<small>146 cal</small>
+        <br><p class='item'>3.0 piece</p></li> 
+        <li class="food">Boiled Egg
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;<small>86 cal</small>
+        <br><p class='item'>1.0 serving(2.0 piece)</p></li>  
+        <li class="food">Cow's Milk
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;<small>167 cal</small>
+        <br><p class='item'>1.0 glass</p></li>  
+        <li class="food">Aloo ka parantha
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&ensp;<small>182 cal</small>
+        <br><p class='item'>1.0 serving(1.0 piece)</p></li>  
+        <li class="food">Filter coffee with milk
+&emsp;&emsp;&emsp;&emsp;&ensp;<small>53 cal</small>
+        <br><p class='item'>1.0 serving(1.0 cup)</p></li>  
+    </ul> 
+      
+    <!-- linking javscript -->
+    <script src="./food.js"></script> 
+</body> 
+  
+</html> 
+
