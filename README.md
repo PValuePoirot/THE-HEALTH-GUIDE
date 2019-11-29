@@ -1,6 +1,6 @@
 # THE-HEALTH-GUIDE
 # A college project 
-# A complete website based on html, css, js php.
+# A complete website based on php,  js, html, css.
 
 
 This project is based on web development. 
